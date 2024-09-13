@@ -1,0 +1,40 @@
+.boot {
+    background-color: slategrey;
+    top: auto;
+    left: 0;
+    height: 200px;
+}
+
+.boot-title, .info {
+    color: black auto;
+    margin: 10px 0;
+    text-transform: capitalize;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.logo-boot {
+    width: 75px;
+    border-radius: 8px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.boot-title {
+    color: white;
+}
+
+.boot-socials-container {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.socials-link, .socials-link1 {
+    color: white;
+    margin-left: 20px;
+    text-transform: capitalize;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 5px;
+}

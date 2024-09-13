@@ -1,0 +1,32 @@
+@import '0.css';
+
+.hero-section {
+    width: 100%;
+    height: calc(100vh - 100px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #06C44B;
+    background-repeat: none;
+    background-origin: calc(100%-50%);
+    margin-top: 100px;
+    overflow: hidden;
+}
+
+.hero-section .hero-logo {
+    height: 150px;
+    display: block;
+    margin: auto;
+    border-radius: 16px;
+    margin-bottom: 20px;
+}
+
+.hero-section .sub-heading {
+    margin-top: 0px;
+    text-align: center;
+    color: black;
+    text-transform: capitalize;
+    font-size: 45px;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+}
